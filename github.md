@@ -15,6 +15,11 @@ Sistema de versionamiento ```remoto```.
 * origin : Nombre del repositorio.
 * master : Rama que deseamos enviar.
 
+| Comandos | Descripcion |
+| :--- | :--- |
+| git push --tags | Toma los tags del repositorio de Git y los sube a GitHub. |
+|||
+
 
 ```Pull:``` Toma el repositorio o los cambios pendientes en el servidor remoto y los baja a el servidor local.
 
