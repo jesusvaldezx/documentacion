@@ -17,6 +17,7 @@ Sistema de versionamiento ```remoto```.
 
 | Comandos | Descripcion |
 | :--- | :--- |
+| git push | Realiza un push del repositorio local al repositorio remoto. |
 | git push --tags | Toma los tags del repositorio de Git y los sube a GitHub. |
 |||
 
