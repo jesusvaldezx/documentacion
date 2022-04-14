@@ -89,6 +89,116 @@ Los archivos ```.js``` deben de importarse al final del ```body``` en el archivo
 
 ---
 
+## Tipos de datos primitivos
+
+JavaScript es un lenguaje debilmente tipado.
+
+```Primitivos```: Es una informacion que no es un objeto y son inmutables.
+Existen 6 tipos de datos primitivos:
+
+| Tipo |  | Descripcion |
+| :-- | :--: | :-- |
+| ```Boolean``` | - | true / false |
+| ```Null``` | - | Sin valor en lo absoluto |
+| ```Undefined``` | - | Una variable declarada que aun no se le asigna valor |
+| ```Number``` | - | integer, floats, etc. |
+| ```String``` | - | Una cadena de caracteres, ej: Palabras, nombre de persona |
+| ```Symbol``` | - | Es un valor unico que no es igual a ningun otro valor |
+
+Para saber de que tipo es una variable podemos usar el operador ```typeof```.
+
+---
+
+## Palabras reservadas y nombre de variables
+
+Son palabras que tienen un uso especifico.
+
+El nombre de los archivos debe de ser en minusculas, y en caso de ser dos o mas palabras, estas se deben dividir por un ```-```. ej: ```nombre-archivo.js```
+
+La declaracion de variables en JavaScript tiene por estandar: 
+- Que sean en ```camelCase```
+- No deben comenzar con numeros
+- No deben contener ```.```
+- No deben contener caracteres especiales
+- El ```_``` se debe de usar preferentemente para separar numeros de palabras
+
+Para los nombres de clases ```class``` los nombres deben de ser ```UpperCamelCase```.
+
+|      |      | Palabras reservadas |      |      | 
+| :--: | :--: | :--: | :--: | :--: |
+| break | export | super | case | extends |
+| switch | catch | finally | this | class |
+| for | throw | const | function | try |
+| continue | if | typeof | debugger | import |
+| var | default | in | void | delete |
+| instanceof | while | do | new | with |
+| else | return | yield | let |  |
+
+|  |  | Palabras reservadas en un futuro |  |  |
+| :--: | :--: | :--: | :--: | :--: |
+| enum | package | public | implements | private |
+| static | interface | protected | await |  |
+
+|  |  | Evitar usar |  |  |
+| :--: | :--: | :--: | :--: | :--: |
+| null | undefined | true | false | hasOwnProperty |
+| isNaN | Infinity | isFinite | NaN | length |
+| Math | isPrototypeOf | prototype | valueOf | name |
+| Number | Object | String | toString | prompt |
+| alert | conform |  |  |  |
+
+---
+
+## Arreglos
+
+Son un objeto muy parecido a una lista de informacion, que contienen un grupo de elementos.
+Usualmente, esa informacion dentro del arreglo es del mismo tipo de dato.
+- En JavaScript cada vez que haya ```[]``` es un arreglo.
+- Los arreglos en JavaScript comienzan con el indice ```0```.
+
+Para obtener la longitud de un arreglo se usa:
+
+    arr.length
+
+Para recorrer un arreglo se utiliza el ```.forEach()```
+
+Para insertar un nuevo elemento al ```final``` del arreglo se utiliza el metodo ```.push()```
+
+Para insertear un nuevo elemento al ```principio``` del arreglo se utiliza el metodo ```unshift()```
+
+Para borrar el ultimo elemento del arreglo se utiliza ```.pop()```
+
+Para borrar un elemento en especifico se utiliza el ```.splice(start, deleteCount)```
+
+Para encontrar el numero de indice de un elemento se utiliza ```.indexOf(searchElement)```
+
+---
+
+## Objetos literales
+
+Son los tipos de datos que no son primitivos. Es una variable-objeto que tiene pares de valores. ej:
+
+```
+let personaje = {
+    nombre: 'Steve Rogers',
+    codeName: 'Captain America',
+    vivo: true,
+    edad: 85,
+    coords: {
+        lat: 34.034,
+        lng: -118.70,
+    },
+    suits: ['Avenger', 'Winter Soldier', 'Civil War'],
+}
+```
+En este ejemplo ```nombre``` es la ```llave(key)``` y ```'Steve Rogers'``` el ```valor(value)```.
+
+
+---
+
+
+
+---
 
 ## Glosario:
 - ```Metodo```: Una funcion que se encuentra dentro de un objeto.
