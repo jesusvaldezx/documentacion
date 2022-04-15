@@ -193,6 +193,7 @@ let personaje = {
 ```
 En este ejemplo ```nombre``` es la ```llave(key)``` y ```'Steve Rogers'``` el ```valor(value)```.
 
+[Documentacion de Objetos literales.](https://developer.mozilla.org/es/docs/web/javascript/reference/global_objects/object)
 
 ---
 
