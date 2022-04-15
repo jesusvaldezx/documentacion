@@ -14,4 +14,5 @@
 | Assert    | afirmar      |
 | must      | deber        |
 | least     | menos        |
-| snapshots | instantaneas |     |
+| snapshots | instantaneas |
+| template  | modelo       |
