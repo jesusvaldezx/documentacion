@@ -16,3 +16,7 @@
 | least     | menos        |
 | snapshots | instantaneas |
 | template  | modelo       |
+| owner     | propietario  |
+| fetch     | buscar       |
+| wrapper   | envoltura    |
+| helper    | ayudante     |

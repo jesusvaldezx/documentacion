@@ -59,12 +59,20 @@ Se puede considerar como __test suits__ a cada uno de los __archivos de pruebas_
 
 Con la funcion ```expected()``` podemos evaluar si el resultado de la prueba es correcto. En ella se envia como parametro lo que esparamos de resultado de la prueba y con ayuda de las siguientes funciones __comparamos si lo que obtenemos de resultado es igual a lo que esperamos.__
 
-* ```.toBe()```: Compara si dos resultados son iguales.
+* ```.toBe()```: Compara si dos resultados son iguales. Se usa en tipos de datos primitivos.
 * ```.toStrictEqual()```: Compara si dos objetos son iguales.
+* ```.toEqual()```: Compara un array.
+* ```.toBeInTheDocument()```: Compara documentos HTML renderizados.
 
 ---
 
 ## JEST
 
 Es una libreria para hacer pruebas en JavaScript. [Esta es su documentacion oficial.](https://jestjs.io/)
+
+## Enzme
+
+Libreria para hacer testing creada por __Airbnb__ y mantenida ahora por __Facebook__.
+
+
 
